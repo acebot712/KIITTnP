@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         DownloadTask task = new DownloadTask();
         String result;
-
+        Log.e("My Change ","Cool!");
         ListView myListView = (ListView) findViewById(R.id.myListView);
 
         try {
